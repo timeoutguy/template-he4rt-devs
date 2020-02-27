@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+* {
+  font-family: Roboto;
+}
+
+a {
+  color: #ff8e3C;
+}
+
+a:hover {
+  color: #C66E2F;
+  text-decoration: none;
+}
+
+.header {
+  background-color: #eff0f3;
+  border-radius: 64px;
+  padding: 32px 16px;
+}
+.header .avatar {
+  width: 200px;
+  border-radius: 50%;
+}
+.header .name {
+  margin-top: 50px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  color: #2D334A;
+}
+.header .title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2D334A;
+}
+.header .email {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+}
+.header .social-media {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.header .social-media .social-media-icons {
+  width: 52px;
+}
+
+.header-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  border-bottom: 4px solid #ff8e3C;
+}
+
+.about-me {
+  margin-top: 27px;
+  color: #2D334A;
+}
+.about-me .about-me-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.mid-page {
+  margin-top: 70px;
+  background-color: #eff0f3;
+  border-radius: 64px;
+}
+
+.jobs {
+  padding: 32px 16px;
+}
+.jobs .job-info {
+  padding: 32px 16px;
+}
+.jobs .job-info .title {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+}
+.jobs .job-info .description {
+  color: #ff8e3C;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+.jobs .job-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: 1px solid #ff8e3C;
+}
+
+.skills {
+  padding: 32px 16px;
+}
+.skills .skills-btn {
+  background-color: #ff8e3C;
+  border-radius: 160px;
+  font-size: 18px;
+  color: #eff0f3;
+  margin: 20px;
+  padding: 10px;
+}
+
+.contact {
+  margin-top: 70px;
+}
+.contact .btn {
+  background-color: #ff8e3C;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.contact .form-control {
+  border: 1px solid #ff8e3C;
+}
+
+.footer {
+  margin-top: 70px;
+  background-color: #ff8e3C;
+  display: flex;
+  justify-content: center;
+  padding: 16px 16px;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=index.css.map */
